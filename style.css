@@ -11,7 +11,6 @@ body {
 }
 
 .caja {
-    /* background-color: gray; */
     width: 460px;
     padding-bottom: 15px;
     display: flex;
@@ -26,16 +25,23 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 550px;
+        width: auto;
         margin-bottom: 3.5em;
 
         h1 {
             font-size: 5em;
             font-style: italic;
             font-weight: 100;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.15em;
             color: #142B57;
-            margin-bottom: 10px;
+            height: 1em;
+        }
+        p {
+            margin-bottom: 20px;
+            align-self: self-end;
+            font-weight: 100;
+            letter-spacing: 0.15em;
+            color: #142B57;
         }
         
         .caja-gris{
